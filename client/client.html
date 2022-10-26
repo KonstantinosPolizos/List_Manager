@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>List Manager</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <section class="section-container">
+            <form class="form-container">
+                <h3>List Manager</h3>
+                <div class="input-container">
+                    <div class="name-email-container">
+                        <input type="text" id="username" class="name-email" placeholder="e.g. Kostas Polizos"/>
+                        <input type="text" id="email" class="name-email" placeholder="e.g. kopolyzos@example.com"/>    
+                    </div>
+                    <button type="submit" class="submit-btn">Add Subscriber</button>
+                </div>
+            </form>
+            <div class="final-list-container">
+                <div class="final-list"></div>
+            </div>
+            
+        </section>
+
+        <script src="index.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </body>
+</html>

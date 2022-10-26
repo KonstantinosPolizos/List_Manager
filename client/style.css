@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 245, 248);
+    color: rgb(16, 42, 66);
+    line-height: 1.5;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding: 5rem 0;
+    height: 200px;
+}
+
+.section-container {
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-container:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+  
+.form-container h3 {
+    color: rgb(6, 50, 81);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name-email-container {
+    flex-direction: row;
+}
+
+.name-email {
+    flex: 0 0 6rem;
+    padding: 0.35rem;
+    padding-left: 1rem;
+    background: rgb(241, 245, 248);
+    border-radius: 0.5rem;
+    border-color: rgb(73, 166, 233);;
+    font-size: 1.05rem;
+    width: 260px;
+    color: rgb(97, 125, 152);
+}
+
+.name-email::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 125, 152);
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(165, 213, 248);
+    border-color: transparent;
+    flex: 0 0 2.5rem;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    content: rgb(73, 166, 233);
+    transition: all 0.3s linear;
+    font-size: 0.85rem;
+}
+
+.submit-btn:hover {
+    background: rgb(73, 166, 233);
+    color: rgb(255, 255, 255);
+}
+
+.final-list-container {
+    margin-top: 2rem;
+    transition: 0.25rem;
+}
+
+.subscriber {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s linear;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+  
+.subscriber:hover {
+    color: rgb(97, 125, 152);
+    background: rgb(241, 245, 248);
+}
+  
+.subscriber:hover {
+    color: var(--clr-grey-5);
+}
+
+
+.title {
+    color: rgb(97, 125, 152);
+    margin-bottom: 0;
+    color: rgb(16, 42, 66);
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+}
+
+.delete-btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 0 0.15rem;
+    transition: all 0.3s linear;
+}
+
+.delete-btn {
+    color: rgb(230, 107, 107);
+}
+
+.delete-btn:hover {
+    color: rgb(187, 37, 37);
+}
